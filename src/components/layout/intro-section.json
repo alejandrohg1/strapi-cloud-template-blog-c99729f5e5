@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_layout_intro_sections",
+  "info": {
+    "displayName": "introSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

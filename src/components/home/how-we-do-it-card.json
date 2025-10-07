@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_home_how_we_do_it_cards",
+  "info": {
+    "displayName": "howWeDoItCard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "headline": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

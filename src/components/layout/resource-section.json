@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_layout_resource_sections",
+  "info": {
+    "displayName": "resourceSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "headline": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "leftColumnContent": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "rightColumnContent": {
+      "type": "customField",
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
+      }
+    },
+    "buttonLink": {
+      "type": "component",
+      "component": "ui.button-link",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

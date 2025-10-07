@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_ui_tags",
+  "info": {
+    "displayName": "tag"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

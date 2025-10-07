@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_home_industry_cards",
+  "info": {
+    "displayName": "industry-card",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "tags": {
+      "type": "component",
+      "component": "ui.tag",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

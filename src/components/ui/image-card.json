@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_ui_image_cards",
+  "info": {
+    "displayName": "image-card"
+  },
+  "options": {},
+  "attributes": {
+    "tagText": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  },
+  "config": {}
+}

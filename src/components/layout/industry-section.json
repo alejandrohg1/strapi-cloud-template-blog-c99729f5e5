@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_layout_industry_sections",
+  "info": {
+    "displayName": "industrySection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "industryCard": {
+      "type": "component",
+      "component": "home.industry-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_home_culture_cards",
+  "info": {
+    "displayName": "cultureCard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "dropdownItem": {
+      "type": "component",
+      "component": "ui.dropdown-item",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

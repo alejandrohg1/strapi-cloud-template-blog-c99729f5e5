@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_layout_aboutuses",
+  "info": {
+    "displayName": "aboutUs"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "leftColumParagraph": {
+      "type": "text"
+    },
+    "rightColumnParagraph": {
+      "type": "text"
+    },
+    "howWeDoItCard": {
+      "type": "component",
+      "component": "home.how-we-do-it-card",
+      "repeatable": false
+    },
+    "cultureCard": {
+      "type": "component",
+      "component": "home.culture-card",
+      "repeatable": false
+    },
+    "missionCard": {
+      "type": "component",
+      "component": "ui.image-card",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}
