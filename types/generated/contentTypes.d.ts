@@ -484,7 +484,16 @@ export interface ApiFormForm extends Struct.CollectionTypeSchema {
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     email: Schema.Attribute.Email;
-    industry: Schema.Attribute.Enumeration<['mooring', 'noon']>;
+    industry: Schema.Attribute.Enumeration<
+      [
+        'technology',
+        'finance',
+        'healthcare',
+        'retail',
+        'manufacturing',
+        'other',
+      ]
+    >;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::form.form'> &
       Schema.Attribute.Private;

@@ -29,8 +29,12 @@
     "industry": {
       "type": "enumeration",
       "enum": [
-        "mooring",
-        "noon"
+        "technology",
+        "finance",
+        "healthcare",
+        "retail",
+        "manufacturing",
+        "other"
       ]
     }
   }

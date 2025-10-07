@@ -30,7 +30,7 @@
     "missionCard": {
       "type": "component",
       "component": "ui.image-card",
-      "repeatable": false
+      "repeatable": true
     }
   },
   "config": {}

@@ -72,7 +72,7 @@ export interface LayoutAboutUs extends Struct.ComponentSchema {
     cultureCard: Schema.Attribute.Component<'home.culture-card', false>;
     howWeDoItCard: Schema.Attribute.Component<'home.how-we-do-it-card', false>;
     leftColumParagraph: Schema.Attribute.Text;
-    missionCard: Schema.Attribute.Component<'ui.image-card', false>;
+    missionCard: Schema.Attribute.Component<'ui.image-card', true>;
     rightColumnParagraph: Schema.Attribute.Text;
     subtitle: Schema.Attribute.String;
     title: Schema.Attribute.String;
