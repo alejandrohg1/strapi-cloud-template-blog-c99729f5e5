@@ -6,7 +6,7 @@ export default {
     try{
       await strapi.plugins['email'].services.email.send({
         to: result.email,
-        from: 'halejandro393@gmail.com', // e.g. single sender verification in SendGrid
+        from: '	no-reply@strapiapp.com', // e.g. single sender verification in SendGrid
         subject: 'The Strapi Email feature worked successfully',
  
         html: 'Hello world!', 
